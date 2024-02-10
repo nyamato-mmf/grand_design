@@ -9,7 +9,7 @@
 
 	<link rel="stylesheet" href="dist/reset.css">
 	<link rel="stylesheet" href="dist/reveal.css">
-	<link rel="stylesheet" href="dist/theme/black.css">
+	<link rel="stylesheet" href="dist/theme/league.css">
 
 	<!-- Theme used for syntax highlighted code -->
 	<link rel="stylesheet" href="plugin/highlight/monokai.css">
@@ -18,18 +18,18 @@
 <body>
 	<div class="reveal">
 		<div class="slides">
-			<section data-transition="fade-in fade-out"><img src="./svg/page_01.svg"></section>
-			<section data-transition="fade-in fade-out"><img src="./svg/page_02.svg"></section>
-			<section data-transition="fade-in fade-out"><img src="./svg/page_03.svg"></section>
-			<section data-transition="fade-in fade-out"><img src="./svg/page_04.svg"></section>
-			<section data-transition="fade-in fade-out"><img src="./svg/page_05.svg"></section>
-			<section data-transition="fade-in fade-out"><img src="./svg/page_06.svg"></section>
-			<section data-transition="fade-in fade-out"><img src="./svg/page_07.svg"></section>
-			<section data-transition="fade-in fade-out"><img src="./svg/page_08.svg"></section>
-			<section data-transition="fade-in fade-out"><img src="./svg/page_09.svg"></section>
-			<section data-transition="fade-in fade-out"><img src="./svg/page_10.svg"></section>
-			<section data-transition="fade-in fade-out"><img src="./svg/page_11.svg"></section>
-			<section data-transition="fade-in fade-out"><img src="./svg/page_12.svg"></section>
+			<section data-fullscreen="true" data-transition="fade-in fade-out"><img src="./svg/page_01.svg"></section>
+			<section data-fullscreen="true" data-transition="fade-in fade-out"><img src="./svg/page_02.svg"></section>
+			<section data-fullscreen="true" data-transition="fade-in fade-out"><img src="./svg/page_03.svg"></section>
+			<section data-fullscreen="true" data-transition="fade-in fade-out"><img src="./svg/page_04.svg"></section>
+			<section data-fullscreen="true" data-transition="fade-in fade-out"><img src="./svg/page_05.svg"></section>
+			<section data-fullscreen="true" data-transition="fade-in fade-out"><img src="./svg/page_06.svg"></section>
+			<section data-fullscreen="true" data-transition="fade-in fade-out"><img src="./svg/page_07.svg"></section>
+			<section data-fullscreen="true" data-transition="fade-in fade-out"><img src="./svg/page_08.svg"></section>
+			<section data-fullscreen="true" data-transition="fade-in fade-out"><img src="./svg/page_09.svg"></section>
+			<section data-fullscreen="true" data-transition="fade-in fade-out"><img src="./svg/page_10.svg"></section>
+			<section data-fullscreen="true" data-transition="fade-in fade-out"><img src="./svg/page_11.svg"></section>
+			<section data-fullscreen="true" data-transition="fade-in fade-out"><img src="./svg/page_12.svg"></section>
 		</div>
 	</div>
 
@@ -37,6 +37,8 @@
 	<script src="plugin/notes/notes.js"></script>
 	<script src="plugin/markdown/markdown.js"></script>
 	<script src="plugin/highlight/highlight.js"></script>
+	<!-- Fullscreen plugin -->
+	<script src="https://cdn.jsdelivr.net/npm/reveal.js-plugins@latest/fullscreen/plugin.js"></script>
 	<script>
 		// More info about initialization & config:
 		// - https://revealjs.com/initialization/
@@ -45,7 +47,7 @@
 			hash: true,
 
 			// Learn about plugins: https://revealjs.com/plugins/
-			plugins: [RevealMarkdown, RevealHighlight, RevealNotes]
+			plugins: [RevealMarkdown, RevealHighlight, RevealNotes, RevealFullscreen]
 		});
 	</script>
 </body>
