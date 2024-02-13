@@ -11,5 +11,5 @@ node_modules/
 .sass-cache
 
 /* 追加 */
-_ai/
-_ae/
+*_ai/
+*_ae/
